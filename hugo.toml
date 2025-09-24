@@ -1,4 +1,29 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://renandotcorrea.github.io/'
 languageCode = 'en-us'
 title = 'Renan de Andrade Correa'
 theme = 'hugo-profile'
+[params]
+	[params.hero]
+		enable = true
+		intro = "Hi, my name is"
+		title = "Renan de Andrade Correa."
+		subtitle = "I'm a Backend Developer."
+		content = "I'm a experienced professional with a passion for building scalable and efficient web applications. I love working with modern technologies and continuously improving my skills."
+		image = "/1755525446765-min.jpg"
+		[params.hero.bottomImage]
+			enable = true
+		 	roundImage = true # Make hero image circular | default false
+		[params.hero.button]
+			enable = true
+			name = "Resume"
+			url = "https://drive.google.com/file/d/1rTxF9k3lYieOVUx5DGefERIjboPm-J7n/view?usp=sharing"
+			download = true
+			newPage = true
+		[params.hero.socialLinks]
+			[[params.hero.socialLinks.fontAwesomeIcons]]
+			icon = "fab fa-github"
+			url = "https://github.com/renandotcorrea"
+			[[params.hero.socialLinks.fontAwesomeIcons]]
+			icon = "fab fa-linkedin"
+			url = "https://www.linkedin.com/in/renandotcorrea/"
+
