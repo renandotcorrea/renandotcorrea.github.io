@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Renan de Andrade Correa'
 theme = 'hugo-profile'
 [params]
+	favicon = "/favi.png"
+	[params.navbar]
+		brandName = "renandotcorrea"
+		disableSearch = true
+		brandLogo = "/logo-white.png"
 	[params.hero]
 		enable = true
 		intro = "Hi, my name is"
@@ -26,6 +31,11 @@ theme = 'hugo-profile'
 			[[params.hero.socialLinks.fontAwesomeIcons]]
 			icon = "fab fa-linkedin"
 			url = "https://www.linkedin.com/in/renandotcorrea/"
+	[params.about]
+		enable = true
+		title = "About Me"
+		content = "I'm a Backend Developer with expertise in building robust and scalable web applications. I have a strong background in various programming languages and frameworks, and I'm passionate about learning new technologies and improving my skills. In my free time, I like to write technical articles and read good books.\n\n I am currently working as a software developer at Globo."
+		image = "/1639433955520.jpeg"
 	[params.footer]
 		enable = true
 		[params.footer.socialNetworks]
