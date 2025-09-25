@@ -26,6 +26,12 @@ theme = 'hugo-profile'
 			[[params.hero.socialLinks.fontAwesomeIcons]]
 			icon = "fab fa-linkedin"
 			url = "https://www.linkedin.com/in/renandotcorrea/"
+	[params.footer]
+		enable = true
+		[params.footer.socialNetworks]
+			github = "https://github.com/renandotcorrea"
+			linkedin = "https://www.linkedin.com/in/renandotcorrea/"
+			instagram = "https://www.instagram.com/renandotcorrea/"
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
